@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0fb9a71-8854-4f2e-bf84-f1ccb8e6b35b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/maico.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agenda/Agenda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agenda/AgendaFinal.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agenda/AppAgenda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agenda/TOTAL.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Agenda/agenda.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notepad.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,14 +33,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\maico\OneDrive\Área de Trabalho\Python\Programs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Calculator">
+  <component name="RunManager" selected="Python.Notepad">
     <configuration name="APAGAR" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Programs" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +75,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Notepad" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Programs" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Notepad.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,34 +146,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="jogo_da_forca" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Programs" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Programming/Programas" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Programming/Programas/jogo_da_forca.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Notepad" />
         <item itemvalue="Python.Calculator" />
         <item itemvalue="Python.TETE" />
         <item itemvalue="Python.Tic-tac-toe" />
         <item itemvalue="Python.APAGAR" />
-        <item itemvalue="Python.jogo_da_forca" />
       </list>
     </recent_temporary>
   </component>
@@ -174,37 +167,57 @@
       <option name="presentableId" value="Default" />
       <updated>1582033823052</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added Calculator.py">
+      <created>1583618848512</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583618848512</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Calculator.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Calculator.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Scopes" timestamp="1582581684516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Scopes/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1582581684516" />
+    <state x="606" y="110" key="CommitChangelistDialog2" timestamp="1583618847251">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="606" y="110" key="CommitChangelistDialog2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618847251" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1583334508751">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583334508751" />
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582743599651" />
-    <state width="1899" height="317" key="GridCell.Tab.0.bottom" timestamp="1583618754824">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1339" height="64" key="GridCell.Tab.0.bottom" timestamp="1584135874100">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1899" height="317" key="GridCell.Tab.0.bottom/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618754824" />
+    <state width="1339" height="64" key="GridCell.Tab.0.bottom/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584135874100" />
     <state width="1899" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582743136609" />
-    <state width="1899" height="317" key="GridCell.Tab.0.center" timestamp="1583618754824">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1339" height="64" key="GridCell.Tab.0.center" timestamp="1584135874100">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1899" height="317" key="GridCell.Tab.0.center/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618754824" />
+    <state width="1339" height="64" key="GridCell.Tab.0.center/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584135874100" />
     <state width="1899" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582743136609" />
-    <state width="1899" height="317" key="GridCell.Tab.0.left" timestamp="1583618754824">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1339" height="64" key="GridCell.Tab.0.left" timestamp="1584135874100">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1899" height="317" key="GridCell.Tab.0.left/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618754823" />
+    <state width="1339" height="64" key="GridCell.Tab.0.left/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584135874100" />
     <state width="1899" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582743136609" />
-    <state width="1899" height="317" key="GridCell.Tab.0.right" timestamp="1583618754824">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1339" height="64" key="GridCell.Tab.0.right" timestamp="1584135874100">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state width="1899" height="317" key="GridCell.Tab.0.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618754824" />
+    <state width="1339" height="64" key="GridCell.Tab.0.right/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584135874100" />
     <state width="1899" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582743136609" />
     <state width="1899" height="338" key="GridCell.Tab.1.bottom" timestamp="1583618734682">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -222,21 +235,32 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1899" height="338" key="GridCell.Tab.1.right/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618734681" />
-    <state x="535" y="153" key="SettingsEditor" timestamp="1583612540746">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="362" y="12" key="SettingsEditor" timestamp="1584135872227">
+      <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="535" y="153" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583612540746" />
+    <state x="535" y="153" key="SettingsEditor/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583621082156" />
+    <state x="362" y="12" key="SettingsEditor/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584135872227" />
     <state x="329" y="12" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583291148508" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1582219849541" />
-    <state x="656" y="343" width="606" height="353" key="com.intellij.ide.util.TipDialog" timestamp="1583410680783">
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2" timestamp="1583618868457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="241" key="Vcs.Push.Dialog.v2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618868457" />
+    <state x="465" y="240" width="457" height="248" key="com.intellij.ide.util.TipDialog" timestamp="1584128221212">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
     <state x="656" y="343" width="606" height="353" key="com.intellij.ide.util.TipDialog/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583336060824" />
+    <state x="465" y="240" width="457" height="248" key="com.intellij.ide.util.TipDialog/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584128221212" />
+    <state x="467" y="240" width="457" height="248" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583679369984" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1366.728@0.0.1920.1040" timestamp="1583410680783" />
     <state x="656" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582236338889" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583618827511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1366.0.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1583618827511" />
+    <state x="402" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584128725549">
+      <screen x="0" y="0" width="1360" height="728" />
+    </state>
+    <state x="402" y="275" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1360.728/-1366.0.1366.728@0.0.1360.728" timestamp="1584128725549" />
   </component>
 </project>
