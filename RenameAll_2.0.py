@@ -9,10 +9,11 @@
 import os
 from friends import EpisodesCopy
 
-path = 'arquivos que vao ser renomeados'    # EX: /Users/name/AppData/Local/Programs/Python/Python38
+path = 'C:/Users/Maicon/Downloads/[HorribleSubs] Naruto Shippuuden (80-426) [1080p] (Batch)'    # EX: /Users/name/AppData/Local/Programs/Python/Python38
 
 os.chdir(path)                              # Muda o diretório para o especificado em 'path'
 
+print(os.listdir(path))
 print(os.getcwd())                          # Mostra o diretório em que o programa está rodando
 
 
@@ -22,16 +23,14 @@ print(os.getcwd())                          # Mostra o diretório em que o progr
 #     os.rename(file, ep+".srt")
 
 """
-Programa para renomear o episodio e legenda com o mesmo nome, o padrão aqui é
-Nome_Episodios: 50 caracteres
-Nome_Legendas: 18 caracteres
+Programa para renomear o episodio e legenda com o mesmo nome
 """
 
-for file, ep in zip(os.listdir('.'), EpisodesCopy):
-    if file.endswitch('.mkv'):
-        os.rename(file, ep+".mkv")
-    elif file.endswitch('.srt'):
-        os.rename(file, ep+".srt")
+# for file, ep in zip(os.listdir('.'), EpisodesCopy):
+#     # if file.endswitch('.mkv'):
+#     #     os.rename(file, ep+".mkv")
+#     if file.endswitch('.srt'):
+#         os.rename(file, ep+".srt")
 
-for file in os.listdir('.'):
-    print(file)
+# for file in os.listdir('.'):
+#     print(file)
